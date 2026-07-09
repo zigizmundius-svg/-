@@ -1,0 +1,14 @@
+{
+  "name": "price-scraper",
+  "version": "1.0.0",
+  "main": "price-scraper.js",
+  "scripts": {
+    "start": "node price-scraper.js",
+    "postinstall": "npx playwright install --with-deps chromium"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.45.0",
+    "node-fetch": "^2.7.0"
+  }
+}
